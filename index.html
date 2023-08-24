@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/src/style.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Form Wave</title>
   </head>
   <body>
     <div id="app">
@@ -15,13 +15,13 @@
         <fieldset>
           <legend>Please Login</legend>
           <div class="input-container">
-            <input type="email" required />
-            <label id="emailLabel" for="">Email</label>
+            <input type="text" id="email" required />
+            <label id="emailLabel" for="email">Email</label>
           </div>
 
           <div class="input-container">
-            <input type="password" required />
-            <label id="passwordLabel" for="">Password</label>
+            <input type="password" id="pass" required />
+            <label id="passwordLabel" for="pass">Password</label>
           </div>
           <button>Login</button>
           <p>Don't have an account? <a href="#">Register</a></p>

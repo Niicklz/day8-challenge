@@ -77,7 +77,7 @@ label span {
 input:focus ~ label span,
 input:valid ~ label span {
   color: cyan;
-  transform: translateY(-30px);
+  transform: translateY(-31px);
 }
 
 button {
